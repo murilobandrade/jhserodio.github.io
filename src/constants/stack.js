@@ -34,7 +34,7 @@ const STACK = Object.freeze({
     MONGO_DB: 'MONGO_DB',
     REDIS: 'REDIS',
     GRAPHQL: 'GRAPHQL',
-    APOLO_SERVER: 'APOLO_SERVER',
+    APOLLO_SERVER: 'APOLLO_SERVER',
     REST_API: 'REST_API',
     MVC: 'MVC',
     OOP: 'OOP',

@@ -1,8 +1,8 @@
-import { COMPANIES } from "./constants/companies";
+import { COMPANIES } from '../../constants/companies';
 
 const jobs_ptBR = {
   title: 'Work experience',
-  vnator: {
+  [COMPANIES.VNATOR]: {
     company: 'VNATOR',
     employ: 'Software Crafter',
     date: 'Início em Novembro de 2019 ate hoje',

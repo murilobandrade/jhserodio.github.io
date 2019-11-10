@@ -1,10 +1,10 @@
-import { SKILLS } from './constants/skills';
-import { STACK } from './constants/stack';
+import { SKILLS } from '../../constants/skills';
+import { STACK } from '../../constants/stack';
 
 const { OTHER_SKILLS, FRONTEND, BACKEND } = SKILLS;
 
-const tech_ptBR = {
-  title: 'VNATOR',
+const stack_enUS = {
+  title: 'Stack',
   [OTHER_SKILLS]: {
     [STACK[OTHER_SKILLS].AWS]: 'AWS Amazon Web Service',
     [STACK[OTHER_SKILLS].AWS_CLOUDFORMATION]: 'AWS Cloudformation',
@@ -18,8 +18,10 @@ const tech_ptBR = {
     [STACK[OTHER_SKILLS].AWS_S3]: 'AWS S3',
     [STACK[OTHER_SKILLS].DOCKER]: 'Docker',
     [STACK[OTHER_SKILLS].GIT]: 'git',
+    [STACK[OTHER_SKILLS].GIT_FLOW]: 'Git Flow',
     [STACK[OTHER_SKILLS].CIRCLE_CI]: 'CircliCi',
-    [STACK[OTHER_SKILLS].VSCODE]: 'VSCode',
+    [STACK[OTHER_SKILLS].BITBUCKET_PIPELINES]: 'Bitbucket Pipelines',
+    [STACK[OTHER_SKILLS].VS_CODE]: 'VSCode',
     [STACK[OTHER_SKILLS].VIM]: 'Vim',
     [STACK[OTHER_SKILLS].ARCH]: 'Arch Linux',
     [STACK[OTHER_SKILLS].JWT]: 'JWT',
@@ -64,4 +66,4 @@ const tech_ptBR = {
   },
 };
 
-export { tech_ptBR };
+export { stack_enUS };

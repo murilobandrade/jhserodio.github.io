@@ -1,41 +1,63 @@
 import React from 'react';
-import { useIntl } from 'react-intl';
 import style from './App.module.css';
 
-import logo from '../img/vnator.svg';
+import { Header } from '../components/Header/Header';
+import { Resume } from '../components/Resume/Resume';
+import { Stack } from '../components/Stack/Stack';
+import { Jobs } from '../components/Jobs/Jobs';
+import { Footer } from '../components/Footer/Footer';
+import { Logo } from '../components/Logo/Logo';
+import { LINKS } from '../constants/links';
+import { ME } from '../constants/me';
+import {
+  IconGithub,
+  IconLinkedin,
+  IconMedium,
+  IconInstagram,
+  IconEmail,
+} from '../components/Icon';
+
+const List = () => (
+  <ul className={style.list}>
+    <li className={style.item}>
+      <a href={LINKS[ME][ME.EMAIL]}>
+        <IconEmail className={style.icon} />
+      </a>
+    </li>
+    <li className={style.item}>
+      <a href={LINKS[ME][ME.GIT_HUB]}>
+        <IconGithub className={style.icon} />
+      </a>
+    </li>
+    <li className={style.item}>
+      <a href={LINKS[ME][ME.LINKEDIN]}>
+        <IconLinkedin className={style.icon} />
+      </a>
+    </li>
+    <li className={style.item}>
+      <a href={LINKS[ME][ME.INSTAGRAM]}>
+        <IconInstagram className={style.icon} />
+      </a>
+    </li>
+    <li className={style.item}>
+      <a href={LINKS[ME][ME.MEDIUM]}>
+        <IconMedium className={style.icon} />
+      </a>
+    </li>
+  </ul>
+);
 
 const App = () => {
-  const { formatMessage } = useIntl();
-
   return (
     <div className={style.App}>
-      <header className={style.header}>
-        <img src={logo} className={style.logo} alt="logo" />
-        <h1 className={style.title}>
-          {formatMessage({
-            id: 'app.title',
-          })}
-        </h1>
-        <p className={style.paragraph}>
-          {formatMessage(
-            {
-              id: 'app.paragraph',
-            },
-            {
-              extern: str => (
-                <a
-                  className={style.link}
-                  href="https://reactjs.org"
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  {str}
-                </a>
-              ),
-              code: str => <code className={style.code}>{str}</code>,
-            },
-          )}
-        </p>
-      </header>
+      <List />
+      <Logo className={style.logo} />
+      <Header />
+      <Resume />
+      <Stack />
+      <Jobs />
+      <Footer />
+      <List />
     </div>
   );
 };

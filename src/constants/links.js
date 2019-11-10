@@ -1,9 +1,16 @@
 import { SKILLS } from './skills';
 import { STACK } from './stack';
+import { ME } from './me';
 
 const { FRONTEND, BACKEND, OTHER_SKILLS } = SKILLS;
 
 const LINKS = Object.freeze({
+  [ME]: Object.freeze({
+    [ME.EMAIL]: 'mailto:joao.serodio@vnator.com',
+    [ME.GIT_HUB]: 'https://github.com/jhserodio',
+    [ME.LINKEDIN]:
+      'https://www.linkedin.com/in/jo%C3%A3o-henrique-serodio-ulbinski/',
+  }),
   [OTHER_SKILLS]: Object.freeze({
     [STACK[OTHER_SKILLS].AWS]: 'https://aws.amazon.com/',
     [STACK[OTHER_SKILLS].AWS_CLOUDFORMATION]:

@@ -6,10 +6,10 @@ import '@formatjs/intl-relativetimeformat/polyfill';
 import '@formatjs/intl-relativetimeformat/dist/locale-data/pt';
 import '@formatjs/intl-relativetimeformat/dist/locale-data/en';
 
-import { messages } from './messages';
-
+import { messages } from './config/messages';
 import { flattenMessages } from './config/flattenMessages';
 import * as serviceWorker from './config/serviceWorker';
+
 import { App } from './App/App';
 
 import './index.css';

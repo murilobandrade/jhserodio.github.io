@@ -1,8 +1,8 @@
 const COMPANIES = Object.freeze({
-  AGROTIS: 'AGROTIS',
-  POLVO: 'POLVO',
   VNATOR: 'VNATOR',
   NAYP: 'NAYP',
+  AGROTIS: 'AGROTIS',
+  POLVO: 'POLVO',
   FREELANCER: 'FREELANCER',
 });
 
