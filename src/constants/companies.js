@@ -1,0 +1,9 @@
+const COMPANIES = Object.freeze({
+  AGROTIS: 'AGROTIS',
+  POLVO: 'POLVO',
+  VNATOR: 'VNATOR',
+  NAYP: 'NAYP',
+  FREELANCER: 'FREELANCER',
+});
+
+export { COMPANIES };
