@@ -1,3 +1,33 @@
 .Resume {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: var(--space-large) 0;
+}
+
+.card {
+  max-width: calc(33% - var(--space-large));
+}
+
+.subtitle {
+  position: relative;
+}
+
+.subtitle::after {
+  position: absolute;
+  content: '';
+  width: 200px;
+  height: 2px;
+  left: 0;
+  top: 20px;
+  background: var(--first);
+}
+
+@media screen and (max-width: 61.25em) {
+  .Resume {
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: inherit;
+  }
 }

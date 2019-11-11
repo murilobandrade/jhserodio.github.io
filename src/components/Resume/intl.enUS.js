@@ -1,5 +1,4 @@
 const resume_enUS = {
-  title: 'Resume',
   analyse: {
     title: 'Analise',
     description:

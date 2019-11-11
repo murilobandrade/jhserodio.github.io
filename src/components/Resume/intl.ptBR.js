@@ -1,5 +1,4 @@
 const resume_ptBR = {
-  title: 'Resume',
   analyse: {
     title: 'Analise',
     description:

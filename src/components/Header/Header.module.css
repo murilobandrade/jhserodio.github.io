@@ -96,9 +96,11 @@
   .half {
     width: 100%;
     border: 0;
+    padding: 0;
   }
 
   ._bio {
     color: var(--grey-base);
+    margin-top: var(--space-large);
   }
 }
