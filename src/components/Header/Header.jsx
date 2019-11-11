@@ -18,9 +18,9 @@ const Header = () => {
         <div className={style.profile}>
           <img src={img} alt={name}></img>
         </div>
-        <div>
+        <div className={style.info}>
           <h1 className={style.title}>{name}</h1>
-          <ul className={style.info}>
+          <ul className={style.list}>
             <li className={style.item}>
               {formatMessage({
                 id: 'header.info.email',
@@ -55,7 +55,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      <div className={style.half}>
+      <div className={`${style.half} ${style._bio}`}>
         <h2 className={style.subtitle}>
           {formatMessage({
             id: 'header.bio.title',

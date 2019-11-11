@@ -7,6 +7,8 @@
 
 html,
 body {
+  background: var(--white-full);
+  background-image: var(--stripes-black);
   font-smooth: always;
   font-family: var(--font-base);
   color: var(--first-dark);

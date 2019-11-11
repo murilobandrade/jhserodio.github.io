@@ -8,6 +8,8 @@ const LINKS = Object.freeze({
   [ME]: Object.freeze({
     [ME.EMAIL]: 'mailto:joao.serodio@vnator.com',
     [ME.GIT_HUB]: 'https://github.com/jhserodio',
+    [ME.MEDIUM]: 'https://medium.com/@jhserodio',
+    [ME.INSTAGRAM]: 'https://www.instagram.com/jhserodio/',
     [ME.LINKEDIN]:
       'https://www.linkedin.com/in/jo%C3%A3o-henrique-serodio-ulbinski/',
   }),

@@ -8,11 +8,11 @@
   --third: #f8fdff;
 
   --black-full: #000;
+  --black-half: rgba(0, 0, 0, 0.04);
   --gray-base: #808891;
   --gray-dark: #414950;
   --gray-light: #b0b8c1;
   --white-full: #fff;
-
 
   --link: #105b8a;
 }

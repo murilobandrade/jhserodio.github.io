@@ -17,30 +17,30 @@ import {
   IconEmail,
 } from '../components/Icon';
 
-const List = () => (
-  <ul className={style.list}>
+const List = ({ position }) => (
+  <ul className={`${style.list} ${position}`}>
     <li className={style.item}>
-      <a href={LINKS[ME][ME.EMAIL]}>
+      <a target="_blank" href={LINKS[ME][ME.EMAIL]}>
         <IconEmail className={style.icon} />
       </a>
     </li>
     <li className={style.item}>
-      <a href={LINKS[ME][ME.GIT_HUB]}>
+      <a target="_blank" href={LINKS[ME][ME.GIT_HUB]}>
         <IconGithub className={style.icon} />
       </a>
     </li>
     <li className={style.item}>
-      <a href={LINKS[ME][ME.LINKEDIN]}>
+      <a target="_blank" href={LINKS[ME][ME.LINKEDIN]}>
         <IconLinkedin className={style.icon} />
       </a>
     </li>
     <li className={style.item}>
-      <a href={LINKS[ME][ME.INSTAGRAM]}>
+      <a target="_blank" href={LINKS[ME][ME.INSTAGRAM]}>
         <IconInstagram className={style.icon} />
       </a>
     </li>
     <li className={style.item}>
-      <a href={LINKS[ME][ME.MEDIUM]}>
+      <a target="_blank" href={LINKS[ME][ME.MEDIUM]}>
         <IconMedium className={style.icon} />
       </a>
     </li>
@@ -50,14 +50,14 @@ const List = () => (
 const App = () => {
   return (
     <div className={style.App}>
-      <List />
+      <List position={style._top} />
       <Logo className={style.logo} />
       <Header />
       <Resume />
       <Stack />
       <Jobs />
       <Footer />
-      <List />
+      <List position={style._bottom} />
     </div>
   );
 };
