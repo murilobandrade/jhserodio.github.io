@@ -6,7 +6,6 @@ import { Header } from '../components/Header/Header';
 import { Resume } from '../components/Resume/Resume';
 import { Stack } from '../components/Stack/Stack';
 import { Jobs } from '../components/Jobs/Jobs';
-import { Footer } from '../components/Footer/Footer';
 import { Logo } from '../components/Logo/Logo';
 import { LINKS } from '../constants/links';
 import { ME } from '../constants/me';
