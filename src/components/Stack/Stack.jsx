@@ -23,6 +23,11 @@ const Stack = () => {
                 id: `stack.${skill}.title`,
               })}
             </h3>
+            <span className={style.return}>
+              {formatMessage({
+                id: `stack.return`,
+              })}
+            </span>
             <ul className={style.list}>
               {Object.values(STACK[skill]).map(tech => (
                 <li key={tech} className={style.tech}>
@@ -34,6 +39,16 @@ const Stack = () => {
                 </li>
               ))}
             </ul>
+            <span className={style.return}>
+              {formatMessage({
+                id: `stack.closeArray`,
+              })}
+            </span>
+            <span className={style.function}>
+              {formatMessage({
+                id: `stack.closeObj`,
+              })}
+            </span>
           </div>
         ))}
       </div>

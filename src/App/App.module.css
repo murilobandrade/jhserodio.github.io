@@ -99,7 +99,8 @@
   .App {
     --logo-width: 160px;
     --logo-height: 114px;
-    border: var(--border-dark);
+    --gap: calc(var(--space-large) * 1.2);
+    border: 0;
   }
 
   .logo {

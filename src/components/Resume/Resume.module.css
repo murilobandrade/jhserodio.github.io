@@ -31,3 +31,15 @@
     max-width: inherit;
   }
 }
+
+@media print {
+  .Resume {
+    padding-top: var(--print-space);
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: inherit;
+    margin-bottom: var(--space-large);
+  }
+}

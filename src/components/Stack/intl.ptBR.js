@@ -5,8 +5,11 @@ const { OTHER_SKILLS, FRONTEND, BACKEND } = SKILLS;
 
 const stack_ptBR = {
   title: 'Stack',
+  return: 'return [',
+  closeArray: ']',
+  closeObj: '}',
   [OTHER_SKILLS]: {
-    title: 'Other Development Knowledges',
+    title: 'knowledges( developer ) {',
     [STACK[OTHER_SKILLS].AWS]: 'AWS Amazon Web Service',
     [STACK[OTHER_SKILLS].AWS_CLOUDFORMATION]: 'AWS Cloudformation',
     [STACK[OTHER_SKILLS].AWS_API_GATEWAY]: 'AWS API Gateway',
@@ -28,7 +31,7 @@ const stack_ptBR = {
     [STACK[OTHER_SKILLS].JWT]: 'JWT',
   },
   [BACKEND]: {
-    title: 'Backend Knowledges',
+    title: 'knowledges( backend ) {',
     [STACK[BACKEND].SERVERLESS]: 'Serverless',
     [STACK[BACKEND].RUST]: 'Rust',
     [STACK[BACKEND].NODE_JS]: 'NodeJS',
@@ -47,7 +50,7 @@ const stack_ptBR = {
     [STACK[BACKEND].APOLLO_SERVER]: 'Apollo Server',
   },
   [FRONTEND]: {
-    title: 'Frontend Knowledges',
+    title: 'knowledges( frontend ) {',
     [STACK[FRONTEND].SHOPIFY]: 'Shopify',
     [STACK[FRONTEND].ES2015]: 'ES2015++',
     [STACK[FRONTEND].HTML]: 'html5',

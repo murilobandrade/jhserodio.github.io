@@ -51,7 +51,7 @@ const LINKS = Object.freeze({
     [STACK[BACKEND].MONGO_DB]: 'https://www.mongodb.com/',
     [STACK[BACKEND].REDIS]: 'https://redis.io/',
     [STACK[BACKEND].GRAPHQL]: 'https://graphql.org/',
-    [STACK[BACKEND].APOLO_SERVER]:
+    [STACK[BACKEND].APOLLO_SERVER]:
       'https://www.apollographql.com/docs/apollo-server/',
     [STACK[BACKEND].REST_API]: 'https://restfulapi.net/',
     [STACK[BACKEND].MVC]: 'https://wikipedia.org/wiki/MVC',
