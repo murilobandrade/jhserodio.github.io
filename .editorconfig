@@ -1,8 +1,0 @@
-[src/**.{js,jsx}]
-indent_style = space
-indent_size = 2
-
-
-[src/**.css]
-indent_style = space
-indent_size = 2
