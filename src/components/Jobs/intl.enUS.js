@@ -12,7 +12,7 @@ const jobs_enUS = {
   [COMPANIES.AGROTIS]: {
     company: 'Agrotis',
     employ: 'Software Architectt',
-    date: 'entre Setembro de 2016 e Junho de 2019',
+    date: 'Entre Setembro de 2016 e Junho de 2019',
     description:
       'Responsável pelo setor de desenvolvimento frontend do time de arquitetura, definições de arquitetura da plataforma Agrotis, desenvolvimento ferramentas e automação de processos. Assim como análise, arquitetura, desenvolvimento e gestão das aplicações que eram responsabilidade do time de arquitetura, trabalhei com diversas  linguagens  como Erlang, Python, Node, Java,  até mesmo shellScript quando havia necessidade de implantar rotinas servidores ou desenvolver ferramentas de integração.',
   },
@@ -26,14 +26,14 @@ const jobs_enUS = {
   [COMPANIES.POLVO]: {
     company: 'Polvo Digital',
     employ: 'Frontend web',
-    date: 'entre Agosto de 2015 e Junho de 2016',
+    date: 'Entre Agosto de 2015 e Junho de 2016',
     description:
       'Responsável pelo setor de desenvolvimento e definição de tecnologias frontend, assim como pelo time de desenvolvimento frontend que era composto desenvolvedores frontend e designers.',
   },
   [COMPANIES.FREELANCER]: {
     company: 'Freelancer Developer',
     employ: 'Web Developer',
-    date: 'entre Janeiro de 2011 e Novembro de 2018',
+    date: 'Entre Janeiro de 2011 e Novembro de 2018',
     description:
       'Desenvolvimento autonomo em diversos projetos como frontend, desenvolvedor java, nodeJs ou Haskell',
   },

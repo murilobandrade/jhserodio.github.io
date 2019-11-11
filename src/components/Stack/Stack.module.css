@@ -90,10 +90,6 @@
 }
 
 @media print {
-  .Stack {
-    padding-top: var(--print-space);
-  }
-
   .skills {
     display: flex;
     flex-direction: column;

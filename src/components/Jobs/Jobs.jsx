@@ -25,11 +25,12 @@ const Jobs = () => {
               {formatMessage({
                 id: `jobs.${company}.employ`,
               })}
-            </p>
-            <p className={style.date}>
-              {formatMessage({
-                id: `jobs.${company}.date`,
-              })}
+              ,
+              <span className={style.date}>
+                {formatMessage({
+                  id: `jobs.${company}.date`,
+                })}
+              </span>
             </p>
             <p className={style.description}>
               {formatMessage({

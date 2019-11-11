@@ -1,4 +1,5 @@
 import React from 'react';
+import Type from 'prop-types';
 import style from './App.module.css';
 
 import { Header } from '../components/Header/Header';
@@ -47,6 +48,10 @@ const List = ({ position }) => (
   </ul>
 );
 
+List.propTypes = {
+  position: Type.string.isRequired,
+};
+
 const App = () => {
   return (
     <div className={style.App}>
@@ -56,7 +61,6 @@ const App = () => {
       <Resume />
       <Stack />
       <Jobs />
-      <Footer />
       <List position={style._bottom} />
     </div>
   );
