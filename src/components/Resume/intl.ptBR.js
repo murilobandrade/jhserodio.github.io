@@ -1,6 +1,6 @@
 const resume_ptBR = {
   analyse: {
-    title: 'Analise',
+    title: 'Análise',
     description:
       'Entender a regra do negócio e seu público alvo para apresentar a melhor solução para o desenvolvimento de um produto.',
   },
