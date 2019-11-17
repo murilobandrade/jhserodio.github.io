@@ -1,11 +1,18 @@
 import { SKILLS } from './skills';
 import { STACK } from './stack';
 import { ME } from './me';
+import { LTDA } from './ltda';
 
 const { FRONTEND, BACKEND, OTHER_SKILLS } = SKILLS;
 
 const LINKS = Object.freeze({
-  [ME]: Object.freeze({
+  [LTDA.SELF]: Object.freeze({
+    [LTDA.VNATOR]: 'https://www.vnator.com',
+    [LTDA.AGROTIS]: 'https://www.agrotis.com.br',
+    [LTDA.NAYP]: 'https://www.nayp.com.br',
+    [LTDA.POLVO]: 'https://www.polvo.com.br',
+  }),
+  [ME.SELF]: Object.freeze({
     [ME.EMAIL]: 'mailto:joao.serodio@vnator.com',
     [ME.GIT_HUB]: 'https://github.com/jhserodio',
     [ME.MEDIUM]: 'https://medium.com/@jhserodio',

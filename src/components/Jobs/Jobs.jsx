@@ -1,7 +1,7 @@
 import React from 'react';
 import { useIntl } from 'react-intl';
 import style from './Jobs.module.css';
-import { COMPANIES } from '../../constants/companies';
+import { LTDA } from '../../constants/ltda';
 
 const Jobs = () => {
   const { formatMessage } = useIntl();
@@ -14,7 +14,7 @@ const Jobs = () => {
         })}
       </h2>
       <div className={style.list}>
-        {Object.values(COMPANIES).map(company => (
+        {Object.values(LTDA).map(company => (
           <div key={company} className={style.item}>
             <h3 className={style.company}>
               {formatMessage({

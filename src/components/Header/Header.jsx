@@ -4,6 +4,8 @@ import { useIntl } from 'react-intl';
 import img from '../../img/eu.jpeg';
 
 import style from './Header.module.css';
+import { LINKS } from '../../constants/links';
+import { LTDA } from '../../constants/ltda';
 
 const Header = () => {
   const { formatMessage } = useIntl();
@@ -11,6 +13,8 @@ const Header = () => {
   const name = formatMessage({
     id: 'header.name',
   });
+
+  console.log(LINKS);
 
   return (
     <div className={style.Header}>
@@ -49,6 +53,15 @@ const Header = () => {
                 },
                 {
                   strong: str => <strong key={str}>{str}</strong>,
+                  company: str => (
+                    <a
+                      className={style.link}
+                      href={LINKS[LTDA.SELF][LTDA.VNATOR]}
+                      target="_blank"
+                      rel="noopener noreferrer">
+                      {str}
+                    </a>
+                  ),
                 },
               )}
             </li>

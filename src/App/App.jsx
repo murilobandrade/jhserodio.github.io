@@ -20,27 +20,42 @@ import {
 const List = ({ position }) => (
   <ul className={`${style.list} ${position}`}>
     <li className={style.item}>
-      <a target="_blank" href={LINKS[ME][ME.EMAIL]}>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={LINKS[ME.SELF][ME.EMAIL]}>
         <IconEmail className={style.icon} />
       </a>
     </li>
     <li className={style.item}>
-      <a target="_blank" href={LINKS[ME][ME.GIT_HUB]}>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={LINKS[ME.SELF][ME.GIT_HUB]}>
         <IconGithub className={style.icon} />
       </a>
     </li>
     <li className={style.item}>
-      <a target="_blank" href={LINKS[ME][ME.LINKEDIN]}>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={LINKS[ME.SELF][ME.LINKEDIN]}>
         <IconLinkedin className={style.icon} />
       </a>
     </li>
     <li className={style.item}>
-      <a target="_blank" href={LINKS[ME][ME.INSTAGRAM]}>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={LINKS[ME.SELF][ME.INSTAGRAM]}>
         <IconInstagram className={style.icon} />
       </a>
     </li>
     <li className={style.item}>
-      <a target="_blank" href={LINKS[ME][ME.MEDIUM]}>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={LINKS[ME.SELF][ME.MEDIUM]}>
         <IconMedium className={style.icon} />
       </a>
     </li>

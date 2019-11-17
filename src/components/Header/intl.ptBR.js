@@ -5,7 +5,8 @@ const header_ptBR = {
     location: 'Curitiba - PR',
     formation:
       '<strong>Formacao:</strong> Sistemas de informação - UCP (Pitanga - PR) - 2008/2012',
-    employ: '<strong>Ocupacao:</strong> Software Crafter at VNATOR',
+    employ:
+      '<strong>Ocupacao:</strong> Software Crafter at <company>VNATOR</company>',
   },
   bio: {
     title: 'Bio',
