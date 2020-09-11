@@ -34,7 +34,7 @@
 
 @media print {
   .Resume {
-    padding-top: var(--print-space);
+    padding-top: var(--space-large);
     flex-direction: column;
   }
 

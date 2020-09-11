@@ -96,6 +96,7 @@
 @media print {
   .Header {
     flex-direction: column;
+    padding-bottom: 0;
   }
   .half {
     width: 100%;
@@ -103,8 +104,13 @@
     padding: 0;
   }
 
+  .profile {
+    height: auto;
+  }
+  
   ._bio {
     color: var(--grey-base);
     margin-top: var(--space-large);
+    padding-bottom: 0;
   }
 }
