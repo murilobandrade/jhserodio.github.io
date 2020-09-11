@@ -2,7 +2,7 @@ import { SKILLS } from './skills';
 
 const STACK = Object.freeze({
   [SKILLS.OTHER_SKILLS]: Object.freeze({
-    AWS: 'AWS',
+    AWS: 'AWS - Amazon Web SErvice',
     AWS_CLOUDFORMATION: 'AWS_CLOUDFORMATION',
     AWS_API_GATEWAY: 'AWS_API_GATEWAY',
     AWS_AMPLIFY: 'AWS_AMPLIFY',
@@ -12,9 +12,12 @@ const STACK = Object.freeze({
     AWS_LAMBDA: 'AWS_LAMBDA',
     AWS_EC2: 'AWS_EC2',
     AWS_S3: 'AWS_S3',
+    AWS_EVENT_BRIDGE: 'AWS_EVENT_BRIDGE',
+    NGINX: 'NGINX',
     DOCKER: 'DOCKER',
     GIT: 'GIT',
     GIT_FLOW: 'GIT_FLOW',
+    CI_CD: 'CI_CD',
     BITBUCKET_PIPELINES: 'BITBUCKET_PIPELINES',
     CIRCLE_CI: 'CIRCLE_CI',
     VS_CODE: 'VS_CODE',
@@ -37,6 +40,7 @@ const STACK = Object.freeze({
     APOLLO_SERVER: 'APOLLO_SERVER',
     REST_API: 'REST_API',
     MVC: 'MVC',
+    ORM: 'ORM',
     OOP: 'OOP',
     FUNCTIONAL_PROGRAMING: 'FUNCTIONAL_PROGRAMING',
   }),
@@ -46,12 +50,15 @@ const STACK = Object.freeze({
     HTML: 'HTML',
     CSS: 'CSS',
     POST_CSS: 'POST_CSS',
+    SASS: 'SASS',
     CSS_MODULES: 'CSS_MODULES',
     TYPE_SCRIPT: 'TYPE_SCRIPT',
     ELM: 'ELM',
     WASM: 'WASM',
     ESLINT: 'ESLINT',
     REACT: 'REACT',
+    ANGULAR: 'ANGULAR',
+    ANGULARJS: 'ANGULARJS',
     REDUX: 'REDUX',
     WEBPACK: 'WEBPACK',
     JEST: 'JEST',
@@ -59,6 +66,7 @@ const STACK = Object.freeze({
     YARN: 'YARN',
     APOLLO: 'APOLLO',
     PWA: 'PWA',
+    MATERIAL_DESIGN: 'MATERIAL_DESIGN',
   }),
 });
 
