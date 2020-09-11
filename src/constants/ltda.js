@@ -1,6 +1,6 @@
 const LTDA = Object.freeze({
-  SElf: 'LTDA',
   VNATOR: 'VNATOR',
+  CINQ: 'CINQ',
   AGROTIS: 'AGROTIS',
   POLVO: 'POLVO',
   NAYP: 'NAYP',

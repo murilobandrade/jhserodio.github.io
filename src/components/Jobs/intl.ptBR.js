@@ -9,12 +9,19 @@ const jobs_ptBR = {
     description:
       'Análise, Arquitetura, Desenvolvimento e gestao de sistemas web especialistas com foco em cloud computing.',
   },
+  [LTDA.CINQ]: {
+    company: 'CINQ',
+    employ: 'Software Engineer Senior',
+    date: 'Entre Fevereiro de 2020 a maio de 2020',
+    description:
+      'Desenvolvedoar Frontend e Tech leader do produto Ticket Shop v2 da Ticket do Brasil - Endered.',
+  },
   [LTDA.AGROTIS]: {
     company: 'Agrotis',
     employ: 'Software Architectt',
     date: 'Entre Setembro de 2016 e Junho de 2019',
     description:
-      'Responsável pelo setor de desenvolvimento frontend do time de arquitetura, definições de arquitetura da plataforma Agrotis, desenvolvimento ferramentas e automação de processos. Assim como análise, arquitetura, desenvolvimento e gestão das aplicações que eram responsabilidade do time de arquitetura, trabalhei com diversas  linguagens  como Erlang, Python, Node, Java,  até mesmo shellScript quando havia necessidade de implantar rotinas servidores ou desenvolver ferramentas de integração.',
+      'Responsável pelo setor de desenvolvimento frontend do time de arquitetura, definições de arquitetura da plataforma Agrotis, desenvolvimento ferramentas e automação de processos. Assim como análise, arquitetura, desenvolvimento e gestão das aplicações que eram responsabilidade do time de arquitetura, trabalhei com diversas linguagens como Erlang, Python, Node, Java, até mesmo shellScript quando havia necessidade de implantar rotinas servidores ou desenvolver ferramentas de integração.',
   },
   [LTDA.NAYP]: {
     company: 'NAYP',

@@ -14,7 +14,7 @@ const Jobs = () => {
         })}
       </h2>
       <div className={style.list}>
-        {Object.values(LTDA).map(company => (
+        {Object.values(LTDA).map((company) => (
           <div key={company} className={style.item}>
             <h3 className={style.company}>
               {formatMessage({
