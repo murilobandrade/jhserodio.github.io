@@ -1,11 +1,11 @@
 .App {
-  --logo-width: 180px;
-  --logo-height: 128px;
+  --logo-width: 90px;
+  --logo-height: 64px;
   --gap: var(--space-large);
 
   box-sizing: border-box;
   padding: var(--gap);
-  padding-top: var(--logo-height);
+  padding-top: calc(var(--logo-height) + var(--space-base));
   margin: var(--gap);
   border: var(--border-cover);
 }
@@ -13,12 +13,13 @@
 .logo {
   width: var(--logo-width);
   height: auto;
-  fill: var(--primary);
+  fill: var(--first);
   background: var(--white-full);
   background-image: var(--stripes-black);
   position: absolute;
   top: var(--space-base);
-  right: calc(50% - (var(--logo-width) / 2));
+  right: calc(50% - ((var(--logo-width) + (var(--space-large)) * 2) / 2));
+  padding: 0 var(--space-large);
 }
 
 .list {
