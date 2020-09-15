@@ -1,17 +1,17 @@
 const header_ptBR = {
-  name: 'Joao Henrique Serodio',
+  name: 'Murilo Borges de Andrade',
   info: {
-    email: 'joao.serodio@vnator.com',
-    location: 'Laranjal - PR',
+    email: 'murilo.andrade@vnator.com',
+    location: 'Apucarana - PR',
     formation:
-      '<strong>Formacao:</strong> Sistemas de informação - UCP (Pitanga - PR) - 2008/2012',
+      '<strong>Formação:</strong> Tecnologia em Análise e Desenvolvimento de Sistemas - UDESC (CCT - Joinville - SC) - 2010/2014',
     employ:
-      '<strong>Ocupacao:</strong> Software Crafter at <company>VNATOR</company>',
+      '<strong>Ocupação:</strong> Software Crafter at <company>VNATOR</company>',
   },
   bio: {
     title: 'Bio',
     paragraph:
-      'Olá sou um programador de origem humilde vindo do interior, me interessei por programação na faculdade no ano de 2008, desde então venho trabalhando para atingir meus objetivos, e sinceramente não tenho fracassado. Atualmente estou focado em me tornar um programador generalista além da especialidade que já possuo com frontend e programação funcional, busco mais conhecimento técnico em linguagens como C e Rust, gestão de projetos e desenvolvimento de Produtos escaláveis. Tenho como objetivo me tornar um profissional indispensável em qualquer produto que possa ser replicado e vise alcançar o cliente de maneira flexível e ilimitada.',
+      'Eu estou sempre buscando conhecimento, procurando novas maneiras de trabalhar para aumentar a produtividades. Gosto de estudar e aplicar o conhecimento aprendido, analisando os resultados. Gosto de trabalhar em grupo, planejando, discutindo e contando com a perspectiva de cada membro para atingir o objetivo final da melhor forma possível. Eu acredito que toda tecnologia tem sua aplicabilidade, por esta razão eu não concentro meu conhecimento em uma unica linguagem de programação / tecnologia. Gosto de Python, TCL, C, Java, PHP, Javascript, Lua e qualquer outra linguagem de programação / tecnologia que tenha sua aplicação.',
   },
 };
 

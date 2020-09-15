@@ -43,22 +43,6 @@ const List = ({ position }) => (
         <IconLinkedin className={style.icon} />
       </a>
     </li>
-    <li className={style.item}>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href={LINKS[ME.SELF][ME.INSTAGRAM]}>
-        <IconInstagram className={style.icon} />
-      </a>
-    </li>
-    <li className={style.item}>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href={LINKS[ME.SELF][ME.MEDIUM]}>
-        <IconMedium className={style.icon} />
-      </a>
-    </li>
   </ul>
 );
 

@@ -1,10 +1,8 @@
 const LTDA = Object.freeze({
   VNATOR: 'VNATOR',
-  CINQ: 'CINQ',
   AGROTIS: 'AGROTIS',
-  POLVO: 'POLVO',
-  NAYP: 'NAYP',
-  FREELANCER: 'FREELANCER',
+  TOTVS: 'TOTVS',
+  INFOCONT: 'INFOCONT',
 });
 
 export { LTDA };

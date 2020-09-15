@@ -4,45 +4,31 @@ const jobs_ptBR = {
   title: 'Work experience',
   [LTDA.VNATOR]: {
     company: 'VNATOR',
-    employ: 'Software Crafter',
-    date: 'Início em Novembro de 2019 ate hoje',
+    employ: 'Arquitetura, Analise e Desenvolvimento de Software',
+    date: 'Início em Novembro de 2018 ate hoje',
     description:
-      'Análise, Arquitetura, Desenvolvimento e gestao de sistemas web especialistas com foco em cloud computing.',
-  },
-  [LTDA.CINQ]: {
-    company: 'CINQ',
-    employ: 'Software Engineer Senior',
-    date: 'Entre Fevereiro de 2020 a maio de 2020',
-    description:
-      'Desenvolvedoar Frontend e Tech leader do produto Ticket Shop v2 da Ticket do Brasil - Endered.',
+      'Desenvolvimento de uma plataforma de ecommerce para comercialização de arquivos digitais, utilizando a nuvem da AWS, com serviço lambda em node, expondo um API Graphql utilizando Apollo, Aurora RDS PostgreSQL, CloudFormation para gestão e controle dos serviços bem como seus devidos parâmetros, Cognito e IAM para controle de acesso a plataforma, AWS S3 para armazenamento de forma dinâmica dos conteúdos subidos para a plataforma, disponibilização do SPA escrito em React no CDN da AWS, AWS EventBridge para controle de algumas ações através de eventos, lambda layer com binários relevantes para algumas funções lambda. Prestação de serviço em desenvolvimento de software e manutenção de sistemas.',
   },
   [LTDA.AGROTIS]: {
     company: 'Agrotis',
-    employ: 'Software Architectt',
-    date: 'Entre Setembro de 2016 e Junho de 2019',
+    employ: 'Webmaster, Arquiteto de Software.',
+    date: 'Entre Abril de 2016 e Dezembro de 2018',
     description:
-      'Responsável pelo setor de desenvolvimento frontend do time de arquitetura, definições de arquitetura da plataforma Agrotis, desenvolvimento ferramentas e automação de processos. Assim como análise, arquitetura, desenvolvimento e gestão das aplicações que eram responsabilidade do time de arquitetura, trabalhei com diversas linguagens como Erlang, Python, Node, Java, até mesmo shellScript quando havia necessidade de implantar rotinas servidores ou desenvolver ferramentas de integração.',
+      'Cuidar do funcionamento do site institucional e finalizar alguns projetos inacabados, como por exemplo: "e-commerce" e "sistema de agricultura". Correção de bug do portal interno, usado pelos clientes. Otimização para mecanismos de busca. Segurança das aplicações, proteção contra ataques. Manutenção de aplicações escritas na linguagem de programação Python com framework Django, biblioteca Bootstrap e PostgreSQL para persistência de dados. Melhorias no ambiente para executar as aplicações, criando os requisitos do pacote, o ambiente de homologação / produção. Utilização do serviço HTTP Apache para aplicação WSGI. Uso do NGINX para gerenciar multi-domínios e reconfiguração Apache atrás do proxy reverso. Desenvolvimento da nova plataforma utilizada para as aplicações cloud da agrotis baseado em microserviços, utilizando JavaEE Jboss, hibernate com suporte a multi-tenancy, MSSQL, openresty como API-gateway integrado com o consul service discovery, ELK para gestão dos logs/métricas, Responsavel por manter a biblioteca Java usado como base para todos as aplicações, bem como manter a aplicação inicial de autenticação autorização da plataforma, Manutenção dos códigos em Lua do API-gateway, responsáveis por restringir/liberar o acesso ao backend/frontend e demais rotas de forma segura e controlada, Utilização do redis para armazenar a sessão dos usuários logados na plataforma, bem como dados persistentes utilizados pelo serviço EMQx. Utilização do serviço Apache Kafka para comunicação entre microserviços.',
   },
-  [LTDA.NAYP]: {
-    company: 'NAYP',
-    employ: 'Analista e Desenvolvedor Web',
-    date: 'Início em Julho de 2019 ate hoje',
+  [LTDA.TOTVS]: {
+    company: 'TOTVS',
+    employ: 'Consultor de Desenvolvimento',
+    date: 'Início em Janeiro de 2015 ate Abril de 2016',
     description:
-      'Análise e desenvolvimento das aplicações web da NAYP, como e-comerce das marcas de roupa ARVST e NoClass.',
+      'Compreensão das funcionalidades básicas e avançadas do software Fluig, bem como sua constante atualização.  Instalação e atualização do produto Fluig. Treinamento e capacitação dos usuários.  Analise de requisitos e preenchimento de documentação conforme padrão TOTVS. Desenvolvimento de processo usando o padrão BPMN, formulário e integração de sistema, fazendo uso das tecnologias Jboss, Java, Javascript, Biblioteca JQuery e Bootstrap, Protocolo REST e SOAP.',
   },
-  [LTDA.POLVO]: {
-    company: 'Polvo Digital',
-    employ: 'Frontend web',
-    date: 'Entre Agosto de 2015 e Junho de 2016',
+  [LTDA.INFOCONT]: {
+    company: 'InfoCont Sistemas Integrados',
+    employ: 'Coordenador Técnico e Desenvolvimento',
+    date: 'Entre Fevereiro de 2011 e Julho de 2014',
     description:
-      'Responsável pelo setor de desenvolvimento e definição de tecnologias frontend, assim como pelo time de desenvolvimento frontend que era composto desenvolvedores frontend e designers.',
-  },
-  [LTDA.FREELANCER]: {
-    company: 'Freelancer Developer',
-    employ: 'Web Developer',
-    date: 'Entre Janeiro de 2011 e Novembro de 2018',
-    description:
-      'Desenvolvimento autonomo em diversos projetos como frontend, desenvolvedor java, nodeJs ou Haskell',
+      'Coordenação de equipe no desenvolvimento de software e suporte ao cliente. Desenvolver projetos e fazer reuniões com a equipe para solução de eventuais dúvidas. Controlar e verificar o andamento de projeto. Utilização de ferramentas e metodologias para auxiliar o desenvolvimento e gerenciamento de projeto, tais como: Kanban e Scrum.  Analise e levantamento de requisitos em clientes. Desenvolver ferramentas utilizando linguagem TCL/TK, PHP, Java e na plataforma Android. Desenvolver software utilizando a linguagem TCL/TK e manutenção do sistema na linguagem COBOL. Instalação/Manutenção de sistema em servidores Linux/Windows. Instalação/Manutenção de banco de dados PostgreSQL. Construção de relatórios com IReport/JasperSoft. Suporte a clientes.',
   },
 };
 
